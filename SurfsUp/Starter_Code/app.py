@@ -50,8 +50,8 @@ def homepage():
             f"/api/v1.0/precipitation<br/>"    
             f"/api/v1.0/stations<br/>"
             f"/api/v1.0/tobs<br/>"
-            f"/api/v1.0/<start><br/>"
-            f"/api/v1.0/<start>/<end><br/>"
+            f"/api/v1.0/2010-01-01<br/>"
+            f"/api/v1.0/2010-01-01/2017-08-23<br/>"
             )
 @app.route("/api/v1.0/precipitation")
 def precipitation():
